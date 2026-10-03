@@ -1,0 +1,85 @@
+# Golden pages: ground truth for this report, read off the PDF page image and checked by `pnpm ingest verify`.
+# Format and rules: @rtm/ingest src/golden.ts and the site's docs/quality-harness.md ("Golden pages").
+# A page marked xfail is a known pipeline defect: it stays red here, verify stays green, and the bead says why.
+# Text and structure come from the committee's HTML edition (cleanEdition); notes are endnotes printed after each part,
+# so a body page defines none and carries markers only, raised after the word ("Congress.1").
+pages:
+  # The Executive Summary's first page: a heading, two paragraphs, a courtroom transcript set as quotations around a "* * *" break, and a bulleted list.
+  - pdf: 27
+    printed: 1
+    verified_by: "Claude (Opus 5.5), 2026-10-04, against the page image"
+    blocks:
+      - heading: "Executive Summary"
+        level: 2
+      - paragraph: {start: "On October 31, 2022, in a", end: "6, 2021, attack on Congress.[^1-50]"}
+      - paragraph: {start: "In his testimony that day, Young", end: "and half later, Young testified:"}
+      - quote: {start: "Prosecutor: And so how do you", end: "a line of police officers?"}
+      - quote: {start: "Young: Today I feel extremely ashamed", end: "and embarrassed. . . ."}
+      - quote: {start: "Prosecutor: How did you feel at", end: "you feel at the time?"}
+      - quote: {start: "Young: I felt like, again, we", end: "event to achieve a goal."}
+      - quote: {start: "Prosecutor: Looking back now almost two", end: "to fight against the government?"}
+      - quote: {start: "Young: I guess I was [acting]", end: "somebody against my own government.[^4-50]"}
+      - paragraph: {start: "Young’s testimony was dramatic, but not", end: "had betrayed their own country:"}
+      - list: {start: "Reimler: “And I’m sorry to the", end: "a great deal to me.”[^9-50]", items: 5}
+    markers: [1, 2, 3, 4, 5, 6]
+    footnotes: []
+  # The Executive Summary's comparison table (what officials told President Trump, left; what he said after, right), set as a table, a row per pair.
+  - pdf: 48
+    printed: 22
+    verified_by: "Claude (Opus 5.5), 2026-10-04, against the page image"
+    blocks:
+      - paragraph: {start: "Despite all that Donald Trump was", end: "has assembled the following examples."}
+      - paragraph: {start: "***Then-Deputy Attorney General Jeffrey Rosen (12/15/20):***", end: "continuing to count for hours.”[^106-50]"}
+      - paragraph: {start: "***Acting Deputy Attorney General Richard Donoghue", end: "time, third time, next ballot.”[^108-50]"}
+      - paragraph: {start: "***GA Sec. State Brad Raffensperger (1/2/21):***", end: "more. He has no clue!”[^110-50]"}
+    markers: [105, 106, 107, 108, 109, 110]
+    footnotes: []
+  # A numbered section heading over two lines (1.6) and four paragraphs, after a paragraph run over from the page before.
+  - pdf: 230
+    printed: 204
+    verified_by: "Claude (Opus 5.5), 2026-10-04, against the page image"
+    blocks:
+      - heading: "1.6 President Trump’s Campaign Team Told Him He Lost the Election and There Was No Significant Fraud"
+        level: 3
+      - paragraph: {start: "President Trump’s campaign team quickly realized", end: "of the election into question.[^57-1]"}
+      - paragraph: {start: "The Campaign continued to investigate claims", end: "to participate in the election.[^59-1]"}
+      - paragraph: {start: "Alex Cannon was a lawyer for", end: "Vice President Pence thanked him.[^61-1]"}
+      - paragraph: {start: "Cannon reported his assessment to Mark", end: "no there, there?” Meadows replied.[^62-1]"}
+    markers: [55, 56, 57, 58, 59, 60, 61, 62]
+    footnotes: []
+  # An interview transcript, one speaker turn per quotation, the last with its marker.
+  - pdf: 231
+    printed: 205
+    verified_by: "Claude (Opus 5.5), 2026-10-04, against the page image"
+    blocks:
+      - paragraph: {start: "Jason Miller, a senior advisor to", end: "to have changed the election:"}
+      - quote: {start: "Miller: My understanding is that I", end: "enough to overturn the election."}
+      - quote: {start: "Committee Staff: And did you give", end: "on that to the President?"}
+      - quote: {start: "Miller: Yes.", end: "Miller: Yes."}
+      - quote: {start: "Committee Staff: What was his reaction", end: "when you told him that?"}
+      - quote: {start: "Miller: “You haven't seen or heard”—I’m", end: "questions that have been raised.”"}
+      - quote: {start: "Committee Staff: How many times did", end: "this conversation with the President?"}
+      - quote: {start: "Miller: Several. I couldn't put a", end: "specific number on it, though."}
+      - quote: {start: "Committee Staff: But more than one?", end: "Staff: But more than one?"}
+      - quote: {start: "Miller: Correct.[^63-1]", end: "Miller: Correct.[^63-1]"}
+      - paragraph: {start: "Matthew Morgan, the Trump Campaign’s top", end: "sufficient to be outcome determinative.”[^64-1]"}
+      - paragraph: {start: "As far as the Trump Campaign’s", end: "lost—and told the President so."}
+      - paragraph: {start: "On November 6th, Jared Kushner arranged", end: "still prevail through legal challenges.[^69-1]"}
+    markers: [63, 64, 65, 66, 67]
+    footnotes: []
+  # An appendix's opening page: its title, an "INTRODUCTION" subhead and five paragraphs, one marker.
+  - pdf: 719
+    printed: 693
+    verified_by: "Claude (Opus 5.5), 2026-10-04, against the page image"
+    blocks:
+      - heading: "APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH"
+        level: 2
+      - heading: "Introduction"
+        level: 3
+      - paragraph: {start: "The Select Committee investigated the facts", end: "overturn the 2020 presidential election."}
+      - paragraph: {start: "Prior to January 6th, numerous government", end: "the joint session of Congress."}
+      - paragraph: {start: "That intelligence included information about specific", end: "not attend on January 6th.[^1-71]"}
+      - paragraph: {start: "As January 6th approached, some of", end: "stop the assault for hours."}
+      - paragraph: {start: "Nevertheless, as explained below, and in", end: "for violence on that day."}
+    markers: [1]
+    footnotes: []
