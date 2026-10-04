@@ -24,7 +24,7 @@
  *   Big Lie Reflected …" is level 3), capped at 6; a foreword's `<h1>` (the
  *   Speaker's "“THE LAST BEST HOPE OF EARTH”") is level 3, and a
  *   recommendation's `p.RecommendationHeading2` ("1. Electoral Count Act.")
- *   is level 3. In the front matter, `p.CommitteeHeader` is a heading: the
+ *   is level 4, so the eleven stay one section under "Recommendations". In the front matter, `p.CommitteeHeader` is a heading: the
  *   first level 2, the others ("COMMITTEE STAFF") level 3.
  * - `p.Extract` (and its italic variants) and the Speaker's `p.Subtitle`
  *   (the oath) are quotations, one block per paragraph: a transcript's lines
@@ -323,7 +323,9 @@ export function readCommitteeHtml(files: Array<{ path: string; text: string }>):
             break;
           }
           if (cls === "RecommendationHeading2") {
-            open("heading", 3);
+            // level 4: as level 3 each recommendation was a sliver of its own and the eleven folded,
+            // with the Recommendations heading, into the end of chapter 8's last section
+            open("heading", 4);
             frame.pop = flush;
             break;
           }
