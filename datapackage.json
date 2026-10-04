@@ -1,0 +1,44 @@
+{
+  "name": "us-jan6-committee",
+  "title": "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol (H. Rept. 117-663)",
+  "licenses": [
+    {
+      "name": "public-domain",
+      "title": "Public domain: a work of the U.S. Government (17 U.S.C. 105). Photographs printed in the report carry third-party credits and are not reproduced here."
+    }
+  ],
+  "resources": [
+    {
+      "title": "Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol, H. Rept. 117-663 (GPO, 845 pp.)",
+      "path": "archive/GPO-J6-REPORT.pdf",
+      "format": "pdf",
+      "mediatype": "application/pdf",
+      "hash": "sha256:132c8833fa1dd3bee62c37a7ad2611798f1a57949c40f20698c7561a07f69ced",
+      "sources": [{ "web": "https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf" }]
+    },
+    {
+      "title": "The Select Committee's HTML edition of the Final Report (html-submitted/index.html in govinfo's GPO-J6-REPORT package)",
+      "path": "reference/raw/index.html",
+      "format": "html",
+      "mediatype": "text/html",
+      "hash": "sha256:c3343f7de46644445bb486cb37a338e2afbc2628b25cfb2942ad1a77315cc33b",
+      "sources": [{ "web": "https://api.govinfo.gov/packages/GPO-J6-REPORT/zip" }]
+    },
+    {
+      "title": "The HTML edition's stylesheet (html-submitted/jan6.css)",
+      "path": "reference/raw/jan6.css",
+      "format": "css",
+      "mediatype": "text/css",
+      "hash": "sha256:ef701bacf01422bdf74ba811635da60e11257d8cf577386974bd99227baf7c18",
+      "sources": [{ "web": "https://api.govinfo.gov/packages/GPO-J6-REPORT/zip" }]
+    },
+    {
+      "title": "govinfo's MODS record for the GPO-J6-REPORT package",
+      "path": "reference/raw/mods.xml",
+      "format": "xml",
+      "mediatype": "application/xml",
+      "hash": "sha256:0de18c281b3b984d9ed714524c2e5136028f02626711097692f143c3e41772de",
+      "sources": [{ "web": "https://api.govinfo.gov/packages/GPO-J6-REPORT/mods" }]
+    }
+  ]
+}

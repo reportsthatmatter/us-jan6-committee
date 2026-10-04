@@ -1,0 +1,754 @@
+<mods xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3" version="3.3" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd" ID="P0b002ee1b92b3c76">
+    <name type="corporate">
+         <namePart>United States Government Publishing Office</namePart>
+         <role>
+              <roleTerm authority="marcrelator" type="text">publisher</roleTerm>
+              <roleTerm authority="marcrelator" type="code">pbl</roleTerm>
+        </role>
+         <role>
+              <roleTerm authority="marcrelator" type="text">distributor</roleTerm>
+              <roleTerm authority="marcrelator" type="code">dst</roleTerm>
+        </role>
+    </name>
+    <name type="corporate">
+         <namePart>United States</namePart>
+         <namePart>Congress</namePart>
+         <namePart>House of Representatives</namePart>
+         <role>
+              <roleTerm authority="marcrelator" type="text">author</roleTerm>
+              <roleTerm authority="marcrelator" type="code">aut</roleTerm>
+        </role>
+         <description>Government Organization</description>
+    </name>
+    <typeOfResource>text</typeOfResource>
+    <genre authority="marcgt">government publication</genre>
+    <language>
+         <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+    </language>
+    <extension>
+         <collectionCode>GPO</collectionCode>
+         <category>Congressional Committee Materials</category>
+         <branch>legislative</branch>
+         <dateIngested>2022-12-29</dateIngested>
+    </extension>
+    <originInfo>
+         <publisher>Government Publishing Office</publisher>
+         <dateIssued encoding="w3cdtf">2022-12-22</dateIssued>
+         <issuance>monographic</issuance>
+    </originInfo>
+    <physicalDescription>
+         <note type="source content type">Deposited</note>
+         <digitalOrigin>born digital</digitalOrigin>
+    </physicalDescription>
+    <classification authority="sudocs">Y 1.1/8:117-663</classification>
+    <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT</identifier>
+    <identifier type="local">P0b002ee1b92b3c76</identifier>
+    <identifier type="ILS system id">001208423</identifier>
+    <recordInfo>
+         <recordContentSource authority="marcorg">DGPO</recordContentSource>
+         <recordCreationDate encoding="w3cdtf">2022-12-29</recordCreationDate>
+         <recordChangeDate encoding="w3cdtf">2022-12-29</recordChangeDate>
+         <recordIdentifier source="DGPO">GPO-J6-REPORT</recordIdentifier>
+         <recordOrigin>machine generated</recordOrigin>
+         <languageOfCataloging>
+              <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+        </languageOfCataloging>
+    </recordInfo>
+    <accessCondition type="GPO scope determination">fdlp</accessCondition>
+    <extension>
+         <docClass>HRPT</docClass>
+         <accessId>GPO-J6-REPORT</accessId>
+         <chamber>HOUSE</chamber>
+         <ACCode>GPO;CRPT</ACCode>
+         <fedPubName>January 6th Committee Final Report and Supporting Materials Collection</fedPubName>
+         <isCurrentEdition>true</isCurrentEdition>
+         <congress>117</congress>
+         <session>2</session>
+         <genericNav1Value>Final Report</genericNav1Value>
+         <congReport congress="117" detail="" number="663" type="H"></congReport>
+         <congCommittee authorityId="hlij00" chamber="H" congress="117" type="L">
+                                
+              <name type="authority-standard">Select Committee to Investigate the January 6th Attack on the United States Capitol</name>
+                                
+              <name type="authority-short">Select Investigate the January 6th Attack on the United States Capitol</name>
+                            
+        </congCommittee>
+    </extension>
+    <titleInfo>
+         <title>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol</title>
+    </titleInfo>
+    <location>
+         <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT</url>
+         <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/index.html</url>
+         <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT.pdf</url>
+    </location>
+    <extension>
+         <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+            </searchTitle>
+    </extension>
+    <relatedItem type="isReferencedBy">
+         <titleInfo>
+              <title>United States House Report 663 (117th Congress)</title>
+        </titleInfo>
+         <identifier type="congressional report citation">H. Rept. 117-663</identifier>
+         <part>
+              <text></text>
+        </part>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671468975810" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1/mods.xml">
+         <titleInfo>
+              <title>Preliminaries</title>
+        </titleInfo>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Preliminaries;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1</accessId>
+              <sequenceNumber>1</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469047794" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-1/mods.xml">
+         <titleInfo>
+              <title>Frontmatter</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/st.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94e0148</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-1.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e28</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-1</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-1</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/st.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-1.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Frontmatter;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-1</accessId>
+              <sequenceNumber>2</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469063672" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-2/mods.xml">
+         <titleInfo>
+              <title>Forward: Speaker of the House</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/np.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94e0135</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-2.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d96</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-2</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-2</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/np.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-2.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Forward: Speaker of the House;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-2</accessId>
+              <sequenceNumber>3</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469089620" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-3/mods.xml">
+         <titleInfo>
+              <title>Forward: Chairman</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/chair.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfca5</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-3.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e24</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-3</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-3</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/chair.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-3.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Forward: Chairman;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-3</accessId>
+              <sequenceNumber>4</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469132039" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-4/mods.xml">
+         <titleInfo>
+              <title>Forward: Vice Chair</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/vc.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94e0149</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-4.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e25</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-4</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-4</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/vc.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-4.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Forward: Vice Chair;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-4</accessId>
+              <sequenceNumber>5</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1672118641598" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-5/mods.xml">
+         <titleInfo>
+              <title>Table of Contents</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-5.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d94</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-5</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-5</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-5.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Table of Contents;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-5</accessId>
+              <sequenceNumber>6</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469188874" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-1-6/mods.xml">
+         <titleInfo>
+              <title>Executive Summary</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/es.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfca6</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-6.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e27</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-6</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-1-6</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/es.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-1-6.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Executive Summary;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-1-6</accessId>
+              <sequenceNumber>7</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671468990066" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2/mods.xml">
+         <titleInfo>
+              <title>Narrative</title>
+        </titleInfo>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Narrative;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2</accessId>
+              <sequenceNumber>8</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469207253" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-1/mods.xml">
+         <titleInfo>
+              <title>Chapter 1: The Big Lie</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch1.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfc74</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-1.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d95</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-1</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-1</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch1.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-1.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 1: The Big Lie;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-1</accessId>
+              <sequenceNumber>9</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469228263" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-2/mods.xml">
+         <titleInfo>
+              <title>Chapter 2: “I Just Want to Find 11,780 Votes”</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch2.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfc75</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-2.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e2b</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-2</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-2</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch2.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-2.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 2: “I Just Want to Find 11,780 Votes”;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-2</accessId>
+              <sequenceNumber>10</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469259856" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-3/mods.xml">
+         <titleInfo>
+              <title>Chapter 3: Fake Electors and the “The President of the Senate
+Strategy”</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch3.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfc76</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-3.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d8f</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-3</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-3</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch3.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-3.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 3: Fake Electors and the “The President of the Senate
+Strategy”;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-3</accessId>
+              <sequenceNumber>11</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469317759" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-4/mods.xml">
+         <titleInfo>
+              <title>Chapter 4: Just Call It Corrupt and Leave the Rest to Me</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch4.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfc77</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-4.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e2c</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-4</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-4</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch4.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-4.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 4: Just Call It Corrupt and Leave the Rest to Me;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-4</accessId>
+              <sequenceNumber>12</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469335816" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-5/mods.xml">
+         <titleInfo>
+              <title>Chapter 5: “A Coup in Search of a Legal Theory”</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch5.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfc78</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-5.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e23</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-5</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-5</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch5.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-5.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 5: “A Coup in Search of a Legal Theory”;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-5</accessId>
+              <sequenceNumber>13</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469371324" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-6/mods.xml">
+         <titleInfo>
+              <title>Chapter 6: “Be There, Will Be Wild!”</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch6.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfca2</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-6.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e29</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-6</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-6</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch6.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-6.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 6: “Be There, Will Be Wild!”;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-6</accessId>
+              <sequenceNumber>14</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469404041" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-7/mods.xml">
+         <titleInfo>
+              <title>Chapter 7: 187 Minutes of Dereliction</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch7.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfca3</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-7.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d97</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-7</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-7</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch7.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-7.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 7: 187 Minutes of Dereliction;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-7</accessId>
+              <sequenceNumber>15</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469465286" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-2-8/mods.xml">
+         <titleInfo>
+              <title>Chapter 8: Analysis of the Attack</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch8.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfca4</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-8.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d91</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-8</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-2-8</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/ch8.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-2-8.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Chapter 8: Analysis of the Attack;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-2-8</accessId>
+              <sequenceNumber>16</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469021444" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-3/mods.xml">
+         <titleInfo>
+              <title>Recommendations</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/rec.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94e0147</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-3.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d90</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-3</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-3</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/rec.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-3.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Recommendations;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-3</accessId>
+              <sequenceNumber>17</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469036209" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-4/mods.xml">
+         <titleInfo>
+              <title>Appendices</title>
+        </titleInfo>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Appendices;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-4</accessId>
+              <sequenceNumber>18</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469519535" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-4-1/mods.xml">
+         <titleInfo>
+              <title>Appendix 1: Government Agency Preparation for and Response to January 6th</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app1.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfb36</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-1.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d92</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-1</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-1</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app1.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-1.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Appendix 1: Government Agency Preparation for and Response to January 6th;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-4-1</accessId>
+              <sequenceNumber>19</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469539626" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-4-2/mods.xml">
+         <titleInfo>
+              <title>Appendix 2: DC National Guard Preparation for and Response to January 6th</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app2.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfb46</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-2.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e2a</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-2</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-2</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app2.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-2.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Appendix 2: DC National Guard Preparation for and Response to January 6th;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-4-2</accessId>
+              <sequenceNumber>20</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469561903" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-4-3/mods.xml">
+         <titleInfo>
+              <title>Appendix 3: The Big Rip-Off: Follow The Money</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app3.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfb47</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-3.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3e26</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-3</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-3</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app3.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-3.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Appendix 3: The Big Rip-Off: Follow The Money;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-4-3</accessId>
+              <sequenceNumber>21</sequenceNumber>
+        </extension>
+    </relatedItem>
+    <relatedItem type="constituent" ID="id-new_child1671469899733" xlink:href="https://www.govinfo.gov/metadata/granule/GPO-J6-REPORT/GPO-J6-REPORT-4-4/mods.xml">
+         <titleInfo>
+              <title>Appendix 4: Malign Foreign Influence</title>
+        </titleInfo>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app4.html">
+              <identifier type="FDsys Unique ID">D09002ee1b94dfb48</identifier>
+        </relatedItem>
+         <relatedItem type="otherFormat" xlink:href="https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-4.pdf">
+              <identifier type="FDsys Unique ID">D09002ee1b94e3d8e</identifier>
+        </relatedItem>
+         <identifier type="uri">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-4</identifier>
+         <location>
+              <url displayLabel="Content Detail" access="object in context">https://www.govinfo.gov/app/details/GPO-J6-REPORT/GPO-J6-REPORT-4-4</url>
+              <url access="raw object" displayLabel="HTML rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/html-submitted/app4.html</url>
+              <url access="raw object" displayLabel="PDF rendition">https://www.govinfo.gov/content/pkg/GPO-J6-REPORT/pdf/GPO-J6-REPORT-4-4.pdf</url>
+        </location>
+         <subject>
+              <hierarchicalGeographic>
+                   <country>United States of America</country>
+                   <state></state>
+            </hierarchicalGeographic>
+        </subject>
+         <extension>
+              <searchTitle>Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol;
+              Appendix 4: Malign Foreign Influence;
+              </searchTitle>
+              <granuleClass>CONTENT</granuleClass>
+              <accessId>GPO-J6-REPORT-4-4</accessId>
+              <sequenceNumber>22</sequenceNumber>
+        </extension>
+    </relatedItem>
+</mods>
