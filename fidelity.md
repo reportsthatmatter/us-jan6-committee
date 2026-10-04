@@ -2,7 +2,7 @@
 
 Pages: 829  ·  Footnotes: 4287  ·  Auto-fixes applied: 0  ·  Human corrections: 0
 
-**336 open**, 0 reviewed and judged correct.
+**343 open**, 0 reviewed and judged correct.
 
 OCR suspects below are a **review queue, not errors**. Whether the text is
 faithful to the scan is a human judgement; these are the places most likely
