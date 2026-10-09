@@ -74,8 +74,11 @@ pages:
     blocks:
       - heading: "APPENDIX 1: GOVERNMENT AGENCY PREPARATION FOR AND RESPONSE TO JANUARY 6TH"
         level: 2
+      # level 4, not 3 (2026-10-09, reportsthatmatter-2t3t): an appendix's own parts nest a level deeper so each appendix is
+      # one section, as the recommendations do under "Recommendations"; at level 3 Appendix 1's "Discussion" was a page of
+      # its own with the generic slug "discussion". The page image still shows it directly under the appendix title.
       - heading: "Introduction"
-        level: 3
+        level: 4
       - paragraph: {start: "The Select Committee investigated the facts", end: "overturn the 2020 presidential election."}
       - paragraph: {start: "Prior to January 6th, numerous government", end: "the joint session of Congress."}
       - paragraph: {start: "That intelligence included information about specific", end: "not attend on January 6th.[^1-71]"}
