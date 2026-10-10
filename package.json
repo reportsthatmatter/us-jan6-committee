@@ -4,6 +4,6 @@
   "type": "module",
   "description": "Source archive and ingestion definition for: Final Report of the Select Committee to Investigate the January 6th Attack on the United States Capitol (H. Rept. 117-663)",
   "dependencies": {
-    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.25.0"
+    "@rtm/ingest": "github:reportsthatmatter/ingest#v0.26.0"
   }
 }
