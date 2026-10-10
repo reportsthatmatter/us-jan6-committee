@@ -24,13 +24,14 @@
  *   Big Lie Reflected …" is level 3), capped at 6; a foreword's `<h1>` (the
  *   Speaker's "“THE LAST BEST HOPE OF EARTH”") is level 3, and a
  *   recommendation's `p.RecommendationHeading2` ("1. Electoral Count Act.")
- *   is level 4, so the eleven stay one section under "Recommendations". In the front matter, `p.CommitteeHeader` is a heading: the
+ *   is level 4, so the eleven stay one section under "Recommendations". Inside an appendix `<hN>` is level N+2
+ *   (capped at 6), so each appendix is one section. In the front matter, `p.CommitteeHeader` is a heading: the
  *   first level 2, the others ("COMMITTEE STAFF") level 3.
  * - `p.Extract` (and its italic variants) and the Speaker's `p.Subtitle`
  *   (the oath) are quotations, one block per paragraph: a transcript's lines
  *   stay citable each on its own, as the PDF sets them.
  * - `<figure>`: a photograph. Its `figcaption` (caption and credit, "(Photo
- *   by …)") is one paragraph, a float: the PDF sets it wherever the page put
+ *   by …)") is one paragraph in italics, a float: the PDF sets it wherever the page put
  *   the photograph, mid-sentence or not. A figure without a caption (the
  *   forewords' portraits and signatures) is nothing, and so is a figure
  *   whose caption is a credit alone (`p.Credit-Full` on a chapter opener's
@@ -355,6 +356,10 @@ export function readCommitteeHtml(files: Array<{ path: string; text: string }>):
           let level = Math.min(n + 1, 6);
           if (n === 1 && (p === "np" || p === "chair" || p === "vc")) level = 3;
           if (p === "es") level = Math.min(n + 1, 6);
+          // an appendix's own parts ("Introduction", "Discussion", "Conclusion", and Appendix 3's subheads) nest a
+          // level deeper, so each appendix is one section as Appendices 2 and 4 already were, rather than a page
+          // with the generic slug "discussion" (Appendix 1) or three top-level pages (Appendix 3) (reportsthatmatter-2t3t)
+          if (n >= 2 && /^app\d_$/.test(p)) level = Math.min(n + 2, 6);
           open("heading", level);
           if (n === 1 && /^ch\d_$/.test(p)) {
             // titled as the HTML's own contents titles it: "Chapter 1. THE BIG LIE"
@@ -370,7 +375,10 @@ export function readCommitteeHtml(files: Array<{ path: string; text: string }>):
           frame.pop = () => {
             const pieces = caption ?? [];
             caption = null;
-            if (captioned && hasText(pieces)) emit({ kind: "paragraph", text: inlineMarkdown(pieces), float: true });
+            // set in italics, as the 9/11 Commission's captions are: a caption of a photograph the site does not
+            // show reads as one, not as the report's prose (reportsthatmatter-2t3t; docs/decisions/0015)
+            const italic = pieces.map((piece) => ("text" in piece && piece.text.trim() ? { ...piece, em: true } : piece));
+            if (captioned && hasText(pieces)) emit({ kind: "paragraph", text: inlineMarkdown(italic), float: true });
           };
           break;
         case "ul":
