@@ -14,6 +14,10 @@ Not in this repo (later units, reportsthatmatter-gqsy.3 follow-ups): the Select 
 
 Public domain: a work of the U.S. Government (17 U.S.C. 105). The photographs printed in the report carry third-party credits (Getty Images, AP and others); the site serves the text only. See `datapackage.json`.
 
+## Licence
+
+Text of the report: Public domain: a work of the United States Government (17 U.S.C. § 105). Our markup, processing and editorial additions: CC BY 4.0. Code: MIT. Evidence, caveats and the full statement are in [LICENSE](LICENSE); the MIT text is in [LICENSE-MIT](LICENSE-MIT).
+
 ## Build
 
 `ingest.ts` declares how the report is turned into Markdown. Rebuild from the site repo with `pnpm ingest run us-jan6-committee`.
